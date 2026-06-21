@@ -1,0 +1,12 @@
+
+Campos de entrada para cancelSponsorship
+input (CancelSponsorshipInput!)
+Campos de retorno para cancelSponsorship
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorsTier (SponsorsTier)
+
+El nivel que se estaba usando en el momento de la cancelación.
