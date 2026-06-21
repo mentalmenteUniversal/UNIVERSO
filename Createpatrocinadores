@@ -1,0 +1,15 @@
+createPatrocinadores
+Mutación
+Realiza muchos patrocinios para diferentes usuarios u organizaciones patrocinables en una vez. Solo puede patrocinar a quienes tengan un perfil público de GitHub Sponsors.
+
+Campos de entrada para createSponsorships
+input (CreateSponsorshipsInput!)
+Campos de retorno para createSponsorships
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorables ([Sponsorable!])
+
+Los usuarios y organizaciones que recibieron un patrocinio.
