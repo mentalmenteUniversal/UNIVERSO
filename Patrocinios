@@ -1,0 +1,41 @@
+
+Nombre	Descripción
+after (patrocinios)
+
+Devuelve los elementos de la lista que vienen después del cursor especificado.
+
+before (String)
+
+Devuelve los elementos de la lista que vienen antes del cursor especificado.
+
+dependencyEcosystem (SecurityAdvisoryEcosystem)
+
+Filtro opcional para el cual se deben comprobar las dependencias para patrocinar dueños. Solo los propietarios patrocinables de dependencias en este ecosistema serán incluido. Se usa cuando soloDependencies = true.
+
+Próximo cambio del 01-07-2022 UTC Descripción: será eliminado. Utiliza el argumento del ecosistema en su lugar. Motivo: El tipo está cambiando de SecurityAdvisoryEcosystem a DependencyGraphEcosystem.dependencyEcosystem
+
+ecosystem (DependencyGraphEcosystem)
+
+Filtro opcional para el cual se deben comprobar las dependencias para patrocinar dueños. Solo los propietarios patrocinables de dependencias en este ecosistema serán incluido. Se usa cuando soloDependencies = true.
+
+first (Int)
+
+Devuelve los primeros n elementos de la lista.
+
+last (Int)
+
+Devuelve los últimos n elementos de la lista.
+
+onlyDependencies (Boolean)
+
+Si solo los patrocinadores que poseen las dependencias del espectador serán regresó. Debe estar autenticado para poder usar. Puedes comprobar una organización en su lugar por sus dependencias propiedad de patrocinadores mediante la aprobación orgLoginForDependencies.
+
+El valor por defecto es .false
+
+orderBy (SponsorableOrder)
+
+Las opciones de pedido para usuarios y organizaciones devuelven desde la conexión.
+
+orgLoginForDependencies (String)
+
+Nombre de usuario opcional de la organización cuyas dependencias deben comprobarse. Se usa cuando soloDependencies = true. Evita revisar tus propias dependencias. Si No eres un administrador de la organización, solo dependencias de su Se considerarán repositorios públicos.
