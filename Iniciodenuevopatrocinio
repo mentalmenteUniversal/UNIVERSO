@@ -1,0 +1,13 @@
+
+
+Campos de entrada para createSponsorship
+input (CreateSponsorshipInput!)
+Campos de retorno para createSponsorship
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorship (Sponsorship)
+
+El patrocinio que se inició
