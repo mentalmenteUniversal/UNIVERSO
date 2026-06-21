@@ -1,0 +1,15 @@
+publishSponsorsTier
+Mutación
+Publica un nivel de patrocinio existente que actualmente siga siendo un borrador en un perfil de GitHub Sponsors.
+
+Campos de entrada para publishSponsorsTier
+input (PublishSponsorsTierInput!)
+Campos de retorno para publishSponsorsTier
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorsTier (SponsorsTier)
+
+El nivel que se publicó.
