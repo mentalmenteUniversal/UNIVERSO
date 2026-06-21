@@ -1,0 +1,15 @@
+createSponsorsTier
+Mutación
+Crea un nuevo nivel de pago para tu perfil de Patrocinadores en GitHub.
+
+Campos de entrada para createSponsorsTier
+input (CreateSponsorsTierInput!)
+Campos de retorno para createSponsorsTier
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorsTier (SponsorsTier)
+
+El nuevo nivel
