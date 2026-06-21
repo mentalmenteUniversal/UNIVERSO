@@ -1,0 +1,14 @@
+
+Crea un perfil de GitHub Sponsors para que otros puedan patrocinarte a ti o a tu organización.
+
+Campos de entrada para createSponsorsListing
+input (CreateSponsorsListingInput!)
+Campos de retorno para createSponsorsListing
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorsListing (SponsorsListing)
+
+El nuevo perfil de GitHub Sponsors.
