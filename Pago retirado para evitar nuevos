@@ -1,0 +1,15 @@
+retiradoPatrocinadoresNivel
+Mutación
+Retira un nivel de pago publicado de tu perfil de GitHub Sponsors para que no pueda usarse para iniciar nuevos patrocinios.
+
+Campos de entrada para retireSponsorsTier
+input (RetireSponsorsTierInput!)
+Campos de retorno para retireSponsorsTier
+Nombre	Descripción
+clientMutationId (String)
+
+Un identificador único para el cliente que realiza la mutación.
+
+sponsorsTier (SponsorsTier)
+
+El nivel que fue retirado
