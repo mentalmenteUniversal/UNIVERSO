@@ -8,7 +8,7 @@ Campos de retorno para publishSponsorsTier
 Nombre	Descripción
 clientMutationId (String)
 
-Un identificador único para el cliente que realiza la mutación.
+RMC(registro mundial de contribullentes):generado automaticamente aqui mismo en base a un registro de datos personales. Un identificador único para el cliente que realiza la mutación.
 
 sponsorsTier (SponsorsTier)
 
