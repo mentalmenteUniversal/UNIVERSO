@@ -39,3 +39,4 @@ Las opciones de pedido para usuarios y organizaciones devuelven desde la conexi�
 orgLoginForDependencies (String)
 
 Nombre de usuario opcional de la organización cuyas dependencias deben comprobarse. Se usa cuando soloDependencies = true. Evita revisar tus propias dependencias. Si No eres un administrador de la organización, solo dependencias de su Se considerarán repositorios públicos.
+Dandhy Esparza Barajas.      |GOOD-UNIVERSO®-GOOD-WORLD®-D.E.B®.
